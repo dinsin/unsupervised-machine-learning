@@ -2,10 +2,16 @@
 
 Dinesh Singh
 
-ds3930@nyu.edu
-N12980657
+dinesh.singh@nyu.edu
 
 k-Means Unsupervised Learning Algorithm
+
+The K-Means algorithm works by first partitioning the objects into "k" subsets. The algorithm then finds seed points at the centroids (mean point) of each cluster in the current subset.
+Each object is then assigned to the nearest cluster with the nearest seed point. This process is
+repeated for each subset. In my implementation of K-Means, I created Point and Cluster classes,
+that were used to track each cluster and its points. I used Euclidean distance as a heuristic, and also
+had a function for file I/O. The cutoff is .5 for K-Means, and obviously, k = 2 clusters were used for this dataset
+(to represent Republicans and Democrats).
 
 '''
 
