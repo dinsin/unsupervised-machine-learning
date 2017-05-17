@@ -1,4 +1,4 @@
-# unsupervised-machine-learning
+# Unsupervised Machine Learning
 
 Implementation of a few unsupervised machine learning algorithms on a simple dataset.
 
